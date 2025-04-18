@@ -26,7 +26,7 @@ from smolagents import (
 
 
 load_dotenv(override=True)
-login(os.getenv("HF_TOKEN"))
+login(os.getenv(""))
 
 append_answer_lock = threading.Lock()
 

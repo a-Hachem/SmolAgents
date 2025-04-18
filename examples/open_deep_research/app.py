@@ -8,4 +8,5 @@ agent = create_agent()
 demo = GradioUI(agent)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=False)
+#     demo.launch(share=True)

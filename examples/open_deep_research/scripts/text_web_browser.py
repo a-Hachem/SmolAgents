@@ -12,6 +12,7 @@ from urllib.parse import unquote, urljoin, urlparse
 import pathvalidate
 import requests
 from serpapi import GoogleSearch
+# from serpapi import SerpApiClient
 
 from smolagents import Tool
 
